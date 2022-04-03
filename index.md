@@ -1,3 +1,34 @@
-[Play now/马上开玩](https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html)
+# april-bang-dream-2022-mirror
 
-[Github Repo/仓库](https://github.com/SummonHIM/april-bang-dream-2022-mirror/blob/gh-pages)
+## English
+
+Here is the BanG Dream 2022 April fool day's game site mirror repo.
+
+This game using Artemis WebAssembly engine.
+
+All right by Bushiroad and CraftEgg.
+
+### How to play
+Game URL: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html)
+
+Game Repo: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)
+
+This repo ensure the repo's files are all download from [april-bang-dream.bushimo.jp](https://april-bang-dream.bushimo.jp) and not any change.
+
+## 中文
+
+该仓库为 BanG Dream 2022 愚人节游戏的数据包镜像站。
+
+该游戏使用 Artemis WebAssembly 引擎。
+
+所有版权归 Bushiroad 与 CraftEgg 所有。
+
+- `artemis.data` 为原始游戏数据包
+- `Unpack` 文件夹为由 `artemis.data` 解包出来的数据。解包软件使用 GARbro。
+
+### 怎么开玩
+游戏地址: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html)
+
+仓库地址: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)
+
+本仓库保证所有文件都是从 [april-bang-dream.bushimo.jp](https://april-bang-dream.bushimo.jp) 上下载下来的。并无修改。
