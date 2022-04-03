@@ -1,4 +1,10 @@
 # april-bang-dream-2022-mirror
+## Branch
+Here has two branchs for this repo/该仓库有两个分支
+
+The Artemis branchs is original game data/Artemis 分支为原始游戏数据
+
+The [NScriptor branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/NScriptor) is the remaster version by me/[NScriptor 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/NScriptor)为个人 NScriptor 重制版
 
 ## English
 Here is the BanG Dream 2022 April fool day's game data pack mirror repo.
