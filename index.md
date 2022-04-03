@@ -18,7 +18,7 @@ This repo ensure the repo's files are all download from [april-bang-dream.bushim
 ### Branch
 Here has three branchs for this repo
 
-1. The Artemis branchs is original game data
+1. The [Artemis branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/Artemis) is original game data
 2. The [NScriptor branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/NScriptor) is the remaster version by me
 3. The [gh-pages branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages) is original game site mirror
 
@@ -38,6 +38,6 @@ Here has three branchs for this repo
 ### 分支说明
 该仓库有三个分支
 
-1. Artemis 分支为原始游戏数据
+1. [Artemis 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/Artemis)为原始游戏数据
 2. [NScriptor 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/NScriptor)为个人 NScriptor 重制版
 3. [gh-pages 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)为原始游戏网站镜像
