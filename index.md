@@ -23,9 +23,6 @@ This repo ensure the repo's files are all download from [april-bang-dream.bushim
 
 所有版权归 Bushiroad 与 CraftEgg 所有。
 
-- `artemis.data` 为原始游戏数据包
-- `Unpack` 文件夹为由 `artemis.data` 解包出来的数据。解包软件使用 GARbro。
-
 ### 怎么开玩
 游戏地址: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html)
 
