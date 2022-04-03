@@ -1,4 +1,0 @@
-ipt = {
-	{"mw/bt_sel_title", clip="0,0,198,50", x=1040, y=380},
-	{"mw/bt_sel_title", clip="0,52,198,50", x=1040, y=380},
-}
