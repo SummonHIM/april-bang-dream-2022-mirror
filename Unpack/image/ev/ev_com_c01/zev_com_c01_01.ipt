@@ -1,6 +1,0 @@
-ipt = {
-	mode = "cut",
-	base = {"zev_com_c01_01", x=-640, y=-360, w=2560, h=1440, ax=1280, ay=720 },
-	{ id=1, file="zev_com_c01_01_01", x=0, y=0 },
-	{ id=2, file="zev_com_c01_01_02", x=2048, y=0 },
-}
