@@ -16,7 +16,7 @@ Game URL: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html
 This repo ensure the repo's files are all download from [april-bang-dream.bushimo.jp](https://april-bang-dream.bushimo.jp) and not any change.
 
 ### Branch
-Here has two branchs for this repo
+Here has three branchs for this repo
 
 1. The Artemis branchs is original game data
 2. The [NScriptor branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/NScriptor) is the remaster version by me
