@@ -8,10 +8,10 @@ This game using Artemis WebAssembly engine.
 
 All right by Bushiroad and CraftEgg.
 
+[Check Game Repo](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)
+
 ### How to play
 Game URL: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html)
-
-Game Repo: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)
 
 This repo ensure the repo's files are all download from [april-bang-dream.bushimo.jp](https://april-bang-dream.bushimo.jp) and not any change.
 
@@ -23,9 +23,9 @@ This repo ensure the repo's files are all download from [april-bang-dream.bushim
 
 所有版权归 Bushiroad 与 CraftEgg 所有。
 
+[查看游戏仓库](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)
+
 ### 怎么开玩
 游戏地址: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html)
-
-仓库地址: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)
 
 本仓库保证所有文件都是从 [april-bang-dream.bushimo.jp](https://april-bang-dream.bushimo.jp) 上下载下来的。并无修改。
