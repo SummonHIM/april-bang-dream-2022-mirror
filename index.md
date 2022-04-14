@@ -2,6 +2,10 @@
 
 [Check Game Repo/查看游戏仓库](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)
 
+<video class="wrapper" style="width: 700px;" controls="controls">
+    <source src="https://github.com/SummonHIM/april-bang-dream-2022-mirror/releases/download/2022-04-03/Girl_s_Blossom_Project_Uso_no_yona_honto_no_koi.mp4" type="video/mp4"/>
+</video>
+
 ## English
 
 Here is the BanG Dream 2022 April fool day's game site mirror repo.
@@ -9,10 +13,6 @@ Here is the BanG Dream 2022 April fool day's game site mirror repo.
 This game using Artemis WebAssembly engine.
 
 All right by Bushiroad and Craft Egg.
-
-<video class="container" controls="controls">
-    <source src="https://github.com/SummonHIM/april-bang-dream-2022-mirror/releases/download/2022-04-03/Girl_s_Blossom_Project_Uso_no_yona_honto_no_koi.mp4" type="video/mp4"/>
-</video>
 
 ### How to play
 Game URL: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html)
@@ -32,10 +32,6 @@ Here has three branchs for this repo
 该游戏使用 Artemis WebAssembly 引擎。
 
 所有版权归武士道与 Craft Egg 所有。
-
-<video class="container" controls="controls">
-    <source src="https://github.com/SummonHIM/april-bang-dream-2022-mirror/releases/download/2022-04-03/Girl_s_Blossom_Project_Uso_no_yona_honto_no_koi.mp4" type="video/mp4"/>
-</video>
 
 ### 怎么开玩
 游戏地址: [https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html](https://summonhim.github.io/april-bang-dream-2022-mirror/artemis.html)
