@@ -11,7 +11,7 @@
 # Story
 ## 満開の桜の樹の下…… 私わあなたと——
 
-<video class="wrapper" style="width: 700px;" controls="controls">
+<video controls="controls">
     <source src="movie/or7ux5ph9.mp4" type="video/mp4"/>
 </video>
 
