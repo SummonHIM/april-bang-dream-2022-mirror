@@ -4,7 +4,7 @@ Here is the BanG Dream 2022 April fool day's game data pack mirror repo.
 
 This game using Artemis WebAssembly engine.
 
-All right by Bushiroad and CraftEgg.
+All right by Bushiroad and Craft Egg.
 
 ### File description
 
@@ -15,15 +15,14 @@ All right by Bushiroad and CraftEgg.
 Here has three branchs for this repo
 
 1. The Artemis branchs is original game data
-2. The [NScriptor branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/NScriptor) is the remaster version by me
-3. The [gh-pages branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages) is original game site mirror
+2. The [gh-pages branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages) is original game site mirror
 
 ## 中文
 该仓库为 BanG Dream 2022 愚人节游戏的数据包镜像站。
 
 该游戏使用 Artemis WebAssembly 引擎。
 
-所有版权归 Bushiroad 与 CraftEgg 所有。
+所有版权归武士道与 Craft Egg 所有。
 
 ### 文件说明
 
@@ -34,5 +33,4 @@ Here has three branchs for this repo
 该仓库有三个分支
 
 1. Artemis 分支为原始游戏数据
-2. [NScriptor 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/NScriptor)为个人 NScriptor 重制版
-3. [gh-pages 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)为原始游戏网站镜像
+2. [gh-pages 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)为原始游戏网站镜像
