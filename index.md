@@ -3,7 +3,7 @@
 [Check Game Repo/查看游戏仓库](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)
 
 <video class="wrapper" style="width: 700px;" controls="controls">
-    <source src="https://github.com/SummonHIM/april-bang-dream-2022-mirror/releases/download/2022-04-03/Girl_s_Blossom_Project_Uso_no_yona_honto_no_koi.mp4" type="video/mp4"/>
+    <source src="https://link.jscdn.cn/sharepoint/aHR0cHM6Ly8xdm0ydnotbXkuc2hhcmVwb2ludC5jb20vOnY6L2cvcGVyc29uYWwvc3VtbW9uaGltXzF2bTJ2el9vbm1pY3Jvc29mdF9jb20vRVhHcEJYbUcyYXRMbENodnltQkZpZTRCUDEwcDVtRlJHWldtYVRuLTQ5SWRtZw.mp4" type="video/mp4"/>
 </video>
 
 ## English
