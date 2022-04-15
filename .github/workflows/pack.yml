@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+    inputs:
+      folder:
+        description: "Enter folder you wanna pack"
+        required: true
+        default: "Unpack"
+
+jobs:
+  build:
+    runs-on: centos-latest
+    steps:
+      - name: Setup environment
+        run: |
+          yum install cmake git gcc gcc-c++ ncurses-devel bison -y
+          git clone https://github.com/nextgal/pfs_upk.git
+          mkdir pfs_upk/build && cd pfs_upk/build
+          cmake .. && make
+          ln pfs_upk /bin/pfs_upk
+          
+      - name: Pack folder into Artemis pfs file
+        run: pfs_upk ${{ github.event.inputs.folder }}
+        
+      - name: Upload pfs file
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ github.event.inputs.folder }}.pfs
+          path: "./${{ github.event.inputs.folder }}.pfs"
