@@ -19,8 +19,14 @@ jobs:
       
       - name: Setup environment
         run: |
+          echo --- Change locale to UTF-8 ---
+          sudo apt-get update && sudo apt-get install language-pack-en
+          sudo localectl set-locale LANG="en_US.UTF-8"
+          export LANG="en_US.UTF-8"
+          sudo update-locale
+          echo --- Install cmake and build pfs_upk ---
           cd ~
-          sudo apt-get update && sudo apt-get install cmake git build-essential -y
+          sudo apt-get install cmake git build-essential -y
           git clone https://github.com/nextgal/pfs_upk.git
           mkdir pfs_upk/build && cd pfs_upk/build
           cmake .. && make
@@ -33,7 +39,7 @@ jobs:
           pfs_upk ${{ github.event.inputs.folder }}
         
       - name: Upload pfs file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: ${{ github.event.inputs.folder }}.pfs
           path: "${{ github.workspace }}/${{ github.event.inputs.folder }}.pfs"
