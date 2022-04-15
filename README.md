@@ -17,6 +17,20 @@ Here has three branchs for this repo
 1. The Artemis branchs is original game data
 2. The [gh-pages branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages) is original game site mirror
 
+### Workflow auto pack (Beta)
+You can auto pack the data folder to Artemis pfs pack
+
+#### Use Step
+1. Clone the project
+2. Go to Setting→ Actions→ General. Select the "Allow XXX, and select non-XXX, actions and reusable workflows" (Safe mode) or "Allow all actions and reusable workflows" (Unsafe)
+3. Fill "actions/upload-artifact@v2" into "Allow specified actions and reusable workflows" (If you select "Allow XXX, and select non-XXX, actions and reusable workflows")
+4. Go to Actions pack, Click AutoPack, then click "Run Workflow"
+5. Select the right branch, then fill the folder name you wanna pack
+6. Wait workflow finish, then download file in actions.
+
+#### Known Bugs
+1. cannot use the pfs file and cannot read by GARbro
+
 ## 中文
 该仓库为 BanG Dream 2022 愚人节游戏的数据包镜像站。
 
