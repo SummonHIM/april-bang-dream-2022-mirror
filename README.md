@@ -23,7 +23,7 @@ You can auto pack the data folder to Artemis pfs pack
 #### Use Step
 1. Clone the project
 2. Go to Setting→ Actions→ General. Select the "Allow XXX, and select non-XXX, actions and reusable workflows" (Safe mode) or "Allow all actions and reusable workflows" (Unsafe)
-3. Fill "actions/checkout@v3, actions/upload-artifact@v2" into "Allow specified actions and reusable workflows" (If you select "Allow XXX, and select non-XXX, actions and reusable workflows")
+3. Fill "actions/checkout@v3, actions/upload-artifact@v3" into "Allow specified actions and reusable workflows" (If you select "Allow XXX, and select non-XXX, actions and reusable workflows")
 4. Go to Actions pack, Click AutoPack, then click "Run Workflow"
 5. Select the right branch, then fill the folder name you wanna pack
 6. Wait workflow finish, then download file in actions.
