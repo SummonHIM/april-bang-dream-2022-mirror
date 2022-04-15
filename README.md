@@ -1,5 +1,4 @@
 # april-bang-dream-2022-mirror
-[Check Game Repo/查看游戏仓库](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)
 
 # English Readme
 Here is the BanG Dream 2022 April fool day's game site mirror repo.
