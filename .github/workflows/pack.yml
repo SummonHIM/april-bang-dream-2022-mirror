@@ -17,7 +17,11 @@ jobs:
     steps:
       - name: Setup environment
         run: |
+          pwd
+          ls
           cd ~
+          pwd
+          ls
           sudo apt-get update && sudo apt-get install cmake git build-essential -y
           git clone https://github.com/nextgal/pfs_upk.git
           mkdir pfs_upk/build && cd pfs_upk/build
