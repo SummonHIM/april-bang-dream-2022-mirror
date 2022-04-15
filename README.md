@@ -29,7 +29,7 @@ You can auto pack the data folder to Artemis pfs pack
 6. Wait workflow finish, then download file in actions.
 
 #### Known Bugs
-1. cannot use the pfs file and cannot read by GARbro
+1. Caught a C++ exception. filesystem error: Cannot convert character sequence: Invalid or incomplete multibyte or wide character
 
 ## 中文
 该仓库为 BanG Dream 2022 愚人节游戏的数据包镜像站。
