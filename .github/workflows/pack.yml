@@ -22,7 +22,7 @@ jobs:
           git clone https://github.com/nextgal/pfs_upk.git
           mkdir pfs_upk/build && cd pfs_upk/build
           cmake .. && make
-          ln pfs_upk /bin/pfs_upk
+          sudo ln pfs_upk /bin/pfs_upk
           
       - name: Pack folder into Artemis pfs file
         run: pfs_upk ${{ github.event.inputs.folder }}
