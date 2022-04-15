@@ -25,7 +25,10 @@ jobs:
           cd ../../
           
       - name: Pack folder into Artemis pfs file
-        run: pfs_upk ${{ github.event.inputs.folder }}
+        run: |
+          pwd
+          ls
+          pfs_upk ${{ github.event.inputs.folder }}
         
       - name: Upload pfs file
         uses: actions/upload-artifact@v2
