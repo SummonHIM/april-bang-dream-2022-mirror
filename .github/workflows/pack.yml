@@ -13,11 +13,12 @@ on:
 
 jobs:
   build:
-    runs-on: centos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Setup environment
         run: |
-          yum install cmake git gcc gcc-c++ ncurses-devel bison -y
+          cd ~
+          sudo apt-get update && sudo apt-get install cmake git build-essential -y
           git clone https://github.com/nextgal/pfs_upk.git
           mkdir pfs_upk/build && cd pfs_upk/build
           cmake .. && make
