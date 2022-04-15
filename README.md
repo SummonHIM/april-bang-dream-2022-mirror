@@ -12,7 +12,7 @@ All right by Bushiroad and Craft Egg.
 - The `Unpack` folder is `artemis.data`'s unpack data by using GARbro
 
 ### Branch
-Here has three branchs for this repo
+Here has 2 branchs for this repo
 
 1. The Artemis branchs is original game data
 2. The [gh-pages branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages) is original game site mirror
@@ -30,7 +30,7 @@ Here has three branchs for this repo
 - `Unpack` 文件夹为由 `artemis.data` 解包出来的数据。解包软件使用 GARbro。
 
 ### 分支说明
-该仓库有三个分支
+该仓库有2个分支
 
 1. Artemis 分支为原始游戏数据
 2. [gh-pages 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/gh-pages)为原始游戏网站镜像
