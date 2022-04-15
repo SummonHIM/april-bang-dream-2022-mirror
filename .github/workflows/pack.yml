@@ -17,21 +17,20 @@ jobs:
     steps:
       - name: Setup environment
         run: |
+          cd ~
           sudo apt-get update && sudo apt-get install cmake git build-essential -y
           git clone https://github.com/nextgal/pfs_upk.git
           mkdir pfs_upk/build && cd pfs_upk/build
           cmake .. && make
           sudo ln pfs_upk /bin/pfs_upk
-          cd ../../
           
       - name: Pack folder into Artemis pfs file
         run: |
-          pwd
-          ls
+          cd ${{ github.workspace }}
           pfs_upk ${{ github.event.inputs.folder }}
         
       - name: Upload pfs file
         uses: actions/upload-artifact@v2
         with:
           name: ${{ github.event.inputs.folder }}.pfs
-          path: "./${{ github.event.inputs.folder }}.pfs"
+          path: "${{ github.workspace }}/${{ github.event.inputs.folder }}.pfs"
