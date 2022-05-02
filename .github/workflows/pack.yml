@@ -37,7 +37,7 @@ jobs:
         run: |
           pfs_upk ${{ github.event.inputs.folder }}
           if [ ! -f "$github_event_inputs_folder.pfs" ]; then
-            echo Error: Pack failed! pfs file not found.
+            echo Error: Pack failed! $github_event_inputs_folder.pfs file not found.
             exit 404
           fi
         
