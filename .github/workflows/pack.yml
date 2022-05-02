@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: AutoPack
+name: Auto_Pack
 
 # Controls when the workflow will run
 on:
@@ -34,7 +34,12 @@ jobs:
           sudo ln pfs_upk /bin/pfs_upk
           
       - name: Pack folder into Artemis pfs file
-        run: pfs_upk ${{ github.event.inputs.folder }}
+        run: |
+          pfs_upk ${{ github.event.inputs.folder }}
+          if [ ! -f "$github_event_inputs_folder.pfs" ]; then
+            echo Error: Pack failed! pfs file not found.
+            exit 404
+          fi
         
       - name: Upload pfs file
         uses: actions/upload-artifact@v3
