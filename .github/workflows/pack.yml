@@ -36,9 +36,9 @@ jobs:
       - name: Pack folder into Artemis pfs file
         run: |
           pfs_upk ${{ github.event.inputs.folder }}
-          if [ ! -f "$github_event_inputs_folder.pfs" ]; then
-            echo Error: Pack failed! $github_event_inputs_folder.pfs file not found.
-            exit 404
+          if [ ! -f "$github.event.inputs.folder.pfs" ]; then
+            echo Error: $github.event.inputs.folder.pfs not found.
+            exit
           fi
         
       - name: Upload pfs file
