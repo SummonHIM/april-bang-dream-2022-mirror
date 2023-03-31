@@ -13,4 +13,4 @@ All right by Bushiroad and Craft Egg.
 [Links|链接](https://summonhim.github.io/april-bang-dream-2022-mirror)
 
 ## Branch | 分支介绍
-1. The [Artemis branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/Artemis) is original game data | [Artemis 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/Artemis)为原始游戏数据
+1. The [Artemis branchs](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/Artemis) is original game data (Outdate) | [Artemis 分支](https://github.com/SummonHIM/april-bang-dream-2022-mirror/tree/Artemis)为原始游戏数据 (已过期)
