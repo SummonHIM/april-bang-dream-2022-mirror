@@ -20,6 +20,7 @@ jobs:
 
       - name: Crawling site
         run: |
+          chmod -v +X getSites.sh
           ./getSites.sh
           echo "CRAWL_END_DATE=$(date '+%F-%H.%M.%S')" >> $GITHUB_ENV
 
@@ -47,6 +48,7 @@ jobs:
         run: |
           cp -vr april-bang-dream.bushimo.jp april-bang-dream.summonhim.top
           rm -v april-bang-dream.summonhim.top/april_movie.mp4
+          sed 's/april_movie.mp4/https:\/\/github.com\/SummonHIM\/april-bang-dream-2022-mirror\/releases\/download\/${{ env.CRAWL_END_DATE }}\/april_movie.mp4/g' april-bang-dream.summonhim.top/index.html
 
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v1
