@@ -28,7 +28,6 @@ jobs:
         run: |
           zip -r -9 april-bang-dream-${{ env.CRAWL_END_DATE }}.zip april-bang-dream.bushimo.jp/
           echo "ZIP_SHA256SUM=$(sha256sum april-bang-dream-${{ env.CRAWL_END_DATE }}.zip)" >> $GITHUB_ENV
-          echo "VIDEO_SHA256SUM=$(sha256sum april-bang-dream.bushimo.jp/april_movie.mp4)" >> $GITHUB_ENV
 
       - name: Upload archive to releases
         uses: softprops/action-gh-release@v1
@@ -38,17 +37,9 @@ jobs:
           body: |
             ```
             ${{ env.ZIP_SHA256SUM }}
-            ${{ env.VIDEO_SHA256SUM }}
             ```
           files: |
             april-bang-dream-${{ env.CRAWL_END_DATE }}.zip
-            april-bang-dream.bushimo.jp/april_movie.mp4
-
-      - name: Generate pages artifact
-        run: |
-          cp -vr april-bang-dream.bushimo.jp april-bang-dream.summonhim.top
-          rm -v april-bang-dream.summonhim.top/april_movie.mp4
-          sed 's/april_movie.mp4/https:\/\/github.com\/SummonHIM\/april-bang-dream-2022-mirror\/releases\/download\/${{ env.CRAWL_END_DATE }}\/april_movie.mp4/g' april-bang-dream.summonhim.top/index.html
 
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v1
