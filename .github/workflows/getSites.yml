@@ -20,7 +20,7 @@ jobs:
 
       - name: Crawling site
         run: |
-          chmod -v +X getSites.sh
+          chmod -v +x getSites.sh
           ./getSites.sh
           echo "CRAWL_END_DATE=$(date '+%F-%H.%M.%S')" >> $GITHUB_ENV
 
