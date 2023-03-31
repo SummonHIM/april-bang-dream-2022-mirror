@@ -30,6 +30,7 @@ jobs:
           echo "VIDEO_SHA256SUM=$(sha256sum april-bang-dream.bushimo.jp/april_movie.mp4)" >> $GITHUB_ENV
 
       - name: Upload archive to releases
+        uses: softprops/action-gh-release@v1
         with:
           name: april-bang-dream-${{ env.CRAWL_END_DATE }}
           tag_name: ${{ env.CRAWL_END_DATE }}
