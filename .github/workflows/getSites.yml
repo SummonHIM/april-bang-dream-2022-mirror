@@ -1,0 +1,49 @@
+# This is a basic workflow to help you get started with Actions
+
+name: auto_Crawl_Site
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC 15:00 = JST 0:00
+    - cron: '0 15 * 4 *'
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup environment
+        run: sudo apt-get install wget zip -y
+
+      - name: Crawling site
+        run: ./getSites.sh
+
+      - name: Zip site to archive
+        run: zip -r -9 april-bang-dream-$(date '+%F-%H.%M.%S').zip april-bang-dream.bushimo.jp/
+
+      - name: Generate pages artifact
+        run: |
+          cp -vr april-bang-dream.bushimo.jp april-bang-dream.summonhim.top
+          rm -v april-bang-dream.summonhim.top/april_movie.mp4
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: april-bang-dream.bushimo.jp/
+
+  deploy:
+    needs: crawl
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

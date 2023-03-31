@@ -1,4 +1,0 @@
-ipt = {
-	{"mw/select_pre", clip="0,0,150,150", x=1062, y=50},
-	{"mw/select_pre", clip="0,152,150,150", x=1062, y=50},
-}
